@@ -13,7 +13,7 @@ public class EvasiveCircleBot : Bot
         new EvasiveCircleBot().Start();
     }
 
-    EvasiveCircleBot() : base(BotInfo.FromFile("EvasiveCircleBot.json")) { }
+    EvasiveCircleBot() : base(BotInfo.FromFile("alt.json")) { }
 
     public override void Run()
     {

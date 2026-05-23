@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "p:\\TubesStigma\\src\\BSK TEAM\\Alt_3\\alt.csproj": {}
+    "P:\\TubesStigma\\src\\BSK TEAM\\Alt_3\\alt.csproj": {}
   },
   "projects": {
-    "p:\\TubesStigma\\src\\BSK TEAM\\Alt_3\\alt.csproj": {
+    "P:\\TubesStigma\\src\\BSK TEAM\\Alt_3\\alt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "p:\\TubesStigma\\src\\BSK TEAM\\Alt_3\\alt.csproj",
+        "projectUniqueName": "P:\\TubesStigma\\src\\BSK TEAM\\Alt_3\\alt.csproj",
         "projectName": "alt",
-        "projectPath": "p:\\TubesStigma\\src\\BSK TEAM\\Alt_3\\alt.csproj",
+        "projectPath": "P:\\TubesStigma\\src\\BSK TEAM\\Alt_3\\alt.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "p:\\TubesStigma\\src\\BSK TEAM\\Alt_3\\obj\\",
+        "outputPath": "P:\\TubesStigma\\src\\BSK TEAM\\Alt_3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
