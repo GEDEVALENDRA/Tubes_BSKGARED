@@ -30,3 +30,4 @@ P:\TubesStigma\src\main\obj\Debug\net8.0\refint\main.dll
 P:\TubesStigma\src\main\obj\Debug\net8.0\main.pdb
 P:\TubesStigma\src\main\obj\Debug\net8.0\main.genruntimeconfig.cache
 P:\TubesStigma\src\main\obj\Debug\net8.0\ref\main.dll
+P:\TubesStigma\src\main\obj\Debug\net8.0\main.sourcelink.json
