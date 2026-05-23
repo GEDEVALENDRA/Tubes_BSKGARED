@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "umIP96y9+DU=",
+  "dgSpecHash": "WmCOHnNkHZ4=",
   "success": true,
-  "projectFilePath": "p:\\TubesStigma\\src\\alternative-bots\\alt-bot-3\\alt.csproj",
+  "projectFilePath": "P:\\TubesStigma\\src\\alternative-bots\\alt-bot-3\\alt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.build.locator\\1.7.8\\microsoft.build.locator.1.7.8.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

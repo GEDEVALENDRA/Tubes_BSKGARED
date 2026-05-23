@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "p:\\TubesStigma\\src\\alternative-bots\\alt-bot-2\\alt.csproj": {}
+    "P:\\TubesStigma\\src\\alternative-bots\\alt-bot-2\\alt.csproj": {}
   },
   "projects": {
-    "p:\\TubesStigma\\src\\alternative-bots\\alt-bot-2\\alt.csproj": {
+    "P:\\TubesStigma\\src\\alternative-bots\\alt-bot-2\\alt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "p:\\TubesStigma\\src\\alternative-bots\\alt-bot-2\\alt.csproj",
+        "projectUniqueName": "P:\\TubesStigma\\src\\alternative-bots\\alt-bot-2\\alt.csproj",
         "projectName": "alt",
-        "projectPath": "p:\\TubesStigma\\src\\alternative-bots\\alt-bot-2\\alt.csproj",
+        "projectPath": "P:\\TubesStigma\\src\\alternative-bots\\alt-bot-2\\alt.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "p:\\TubesStigma\\src\\alternative-bots\\alt-bot-2\\obj\\",
+        "outputPath": "P:\\TubesStigma\\src\\alternative-bots\\alt-bot-2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"

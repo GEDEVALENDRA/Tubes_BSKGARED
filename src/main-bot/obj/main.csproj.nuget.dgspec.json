@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "p:\\TubesStigma\\src\\main-bot\\main.csproj": {}
+    "P:\\TubesStigma\\src\\main-bot\\main.csproj": {}
   },
   "projects": {
-    "p:\\TubesStigma\\src\\main-bot\\main.csproj": {
+    "P:\\TubesStigma\\src\\main-bot\\main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "p:\\TubesStigma\\src\\main-bot\\main.csproj",
+        "projectUniqueName": "P:\\TubesStigma\\src\\main-bot\\main.csproj",
         "projectName": "main",
-        "projectPath": "p:\\TubesStigma\\src\\main-bot\\main.csproj",
+        "projectPath": "P:\\TubesStigma\\src\\main-bot\\main.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "p:\\TubesStigma\\src\\main-bot\\obj\\",
+        "outputPath": "P:\\TubesStigma\\src\\main-bot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
