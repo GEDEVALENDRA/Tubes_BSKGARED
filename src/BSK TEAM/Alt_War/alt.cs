@@ -39,17 +39,14 @@ public class RamFire : Bot
     {
         double distance = DistanceTo(e.X, e.Y);
 
-        // Arahkan gun ke musuh dulu
         double gunBearing = GunBearingTo(e.X, e.Y);
         TurnGunLeft(gunBearing);
 
-        // Tembak keras kalau sudah cukup lurus
         if (GunHeat == 0 && Abs(GunBearingTo(e.X, e.Y)) < 10)
         {
             Fire(3);
         }
 
-        // Movement stabil: hindar tapi tidak spin berlebihan
         if (distance < SAFE_DISTANCE - DISTANCE_TOLERANCE)
         {
             TurnRight(25 * turnDirection);
