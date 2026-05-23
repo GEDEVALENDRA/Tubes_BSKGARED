@@ -59,7 +59,7 @@ https://dotnet.microsoft.com/download
 
 #### 2. Install Robocode TankRoyale
 ```bash
-https://robocode-dev.github.io/tank-royale/
+https://github.com/Ariel-HS/tubes1-if2211-starter-pack/releases/tag/v1.0
 ```
 
 ---
