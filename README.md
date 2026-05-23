@@ -106,7 +106,7 @@ dotnet run
 
 <div align="center">
 
-### ⚔️ X BSK GARED Team
+### Robocode Tank Royale X BSK GARED Team
 Robocode TankRoyale Project
 
 </div>
