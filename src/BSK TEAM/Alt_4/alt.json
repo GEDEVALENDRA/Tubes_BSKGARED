@@ -1,8 +1,8 @@
 {
-  "name": "BSK LASKAR POINT CAFFE",
+  "name": "BSK - LASKAR POINT CAFFE",
   "version": "1.0",
-  "authors": [ "[BSK] GEDE" ],
-  "description": "SKOR 6-0? TERPAKSA GUA PAKE STYLE BSK GARED!",
+  "authors": [ "Gede Valendra", "Faisal H Sinambela", "Stevan Immanuel Simbolon" ],
+  "description": "Infoo Point Caffe Der",
   "homepage": "",
   "countryCodes": [ "id" ],
   "platform": ".NET 8.0",

@@ -1,8 +1,8 @@
 {
   "name": "BSK LASKAR KORPRI",
-  "version": "1.0",
-  "authors": [ "[BSK] GEDE" ],
-  "description": "SKOR 6-0? TERPAKSA GUA PAKE STYLE BSK GARED!",
+  "version": "2.0",
+  "authors": [ "Gede Valendra", "Faisal H Sinambela", "Stevan Immanuel Simbolon" ],
+  "description": "udahlah tidur aja",
   "homepage": "",
   "countryCodes": [ "id" ],
   "platform": ".NET 8.0",

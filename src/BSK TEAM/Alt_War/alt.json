@@ -1,8 +1,8 @@
 {
   "name": "BSK - LASKAR PEMDA",
   "version": "7.0",
-  "authors": [ "[BSK] GEDE" ],
-  "description": "SKOR 6-0? TERPAKSA GUA PAKE STYLE BSK GARED!",
+  "authors": [ "Gede Valendra", "Faisal H Sinambela", "Stevan Immanuel Simbolon" ],
+  "description": "Jangan karna banjir kita jadi ga respect",
   "homepage": "",
   "countryCodes": [ "id" ],
   "platform": ".NET 8.0",
