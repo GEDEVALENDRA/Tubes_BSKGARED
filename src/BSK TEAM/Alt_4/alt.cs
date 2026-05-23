@@ -4,8 +4,6 @@ using System.Drawing;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 
-// Justinian - Optimized Greedy Bot
-// Fokus: melee war, target selection efisien, movement adaptif, tembakan hemat energi
 public class Justinian : Bot
 {
     private class EnemyInfo
@@ -92,7 +90,6 @@ public class Justinian : Bot
             previousEnergy = enemies[e.ScannedBotId].Energy;
             double energyDrop = previousEnergy - e.Energy;
 
-            // Drop 0.1 - 3.0 biasanya tanda musuh menembak
             recentlyFired = energyDrop > 0.09 && energyDrop <= 3.01;
         }
 
@@ -142,13 +139,10 @@ public class Justinian : Bot
 
             double wallBonus = IsNearWall(enemy.X, enemy.Y) ? 160 : 0;
 
-            // Musuh lambat lebih mudah ditembak
             double easyHitBonus = Math.Max(0, 180 - Math.Abs(enemy.Speed) * 25);
 
-            // Jangan terlalu nafsu target jauh saat energi sendiri rendah
             double energySafetyPenalty = Energy < 20 && enemy.Distance > 300 ? -350 : 0;
 
-            // Greedy utama: pilih target dengan peluang kill dan hit tertinggi sekarang
             double score =
                 distanceScore +
                 lowEnergyScore +
@@ -180,7 +174,6 @@ public class Justinian : Bot
         double bulletSpeed = 20 - 3 * power;
         double time = enemy.Distance / bulletSpeed;
 
-        // Predictive aiming
         double predictedX = enemy.X + Math.Sin(ToRad(enemy.Direction)) * enemy.Speed * time;
         double predictedY = enemy.Y + Math.Cos(ToRad(enemy.Direction)) * enemy.Speed * time;
 
@@ -192,7 +185,6 @@ public class Justinian : Bot
 
         double absGunTurn = Math.Abs(gunTurn);
 
-        // Semakin jauh musuh, semakin ketat toleransi aim
         double aimTolerance;
         if (enemy.Distance < 140)
             aimTolerance = 10;
@@ -201,7 +193,6 @@ public class Justinian : Bot
         else
             aimTolerance = 3.5;
 
-        // Jangan buang energi kalau aim belum cukup lurus
         if (absGunTurn <= aimTolerance)
             SetFire(power);
     }
@@ -214,7 +205,6 @@ public class Justinian : Bot
         if (Energy < 16)
             return enemy.Distance < 180 ? 0.9 : 0.6;
 
-        // Finishing: jangan pakai power 3 kalau musuh tinggal sedikit
         if (enemy.Energy < 5)
             return 0.8;
 
@@ -246,7 +236,6 @@ public class Justinian : Bot
 
         if (target == null)
         {
-            // Search mode: gerak ringan sambil radar scan
             SetTurnRight(25);
             SetForward(140 * moveDirection);
 
@@ -259,7 +248,6 @@ public class Justinian : Bot
         double distance = DistanceTo(target.X, target.Y);
         double bearing = BearingTo(target.X, target.Y);
 
-        // Kalau jauh, kejar tapi jangan lurus total
         if (distance > MAX_DISTANCE)
         {
             double chaseAngle = bearing + 18 * moveDirection;
@@ -268,7 +256,6 @@ public class Justinian : Bot
             return;
         }
 
-        // Kalau terlalu dekat, mundur diagonal agar tidak jadi target mudah
         if (distance < MIN_DISTANCE)
         {
             double retreatAngle = bearing + 70 * moveDirection;
@@ -277,7 +264,6 @@ public class Justinian : Bot
             return;
         }
 
-        // Orbit adaptif: jarak ideal sambil strafe
         double orbitOffset = 90;
 
         if (distance < IDEAL_DISTANCE)
@@ -290,7 +276,6 @@ public class Justinian : Bot
 
         SetTurnLeft(turn);
 
-        // Ubah arah saat musuh kemungkinan menembak / periodik
         if ((target.RecentlyFired && target.Distance < 420) ||
             tick % 32 == 0 ||
             random.NextDouble() < 0.025)
@@ -319,7 +304,6 @@ public class Justinian : Bot
 
         double radarTurn = RadarBearingTo(target.X, target.Y);
 
-        // Radar lock lebih kuat agar target tidak hilang
         SetTurnRadarLeft(radarTurn * 2.2);
     }
 
