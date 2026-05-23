@@ -2,7 +2,7 @@ using System.Drawing;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 
-public class RamFire : Bot
+public class BSKLASKARPEMDA : Bot
 {
     // Arah putaran bot, 1 ke kanan dan -1 ke kiri
     int turnDirection = 1;
@@ -15,11 +15,11 @@ public class RamFire : Bot
 
     static void Main(string[] args)
     {
-        // Menjalankan bot RamFire
-        new RamFire().Start();
+        // Menjalankan bot BSKLASKARPEMDA
+        new BSKLASKARPEMDA().Start();
     }
 
-    RamFire() : base(BotInfo.FromFile("alt.json")) { }
+    BSKLASKARPEMDA() : base(BotInfo.FromFile("alt.json")) { }
 
     public override void Run()
     {

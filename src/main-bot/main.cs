@@ -3,7 +3,7 @@ using System.Drawing;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 
-public class RamFire : Bot
+public class BSKGARED : Bot
 {
     // Arah gerak maju/mundur bot
     int moveDirection = 1;
@@ -22,11 +22,11 @@ public class RamFire : Bot
 
     static void Main(string[] args)
     {
-        // Menjalankan bot RamFire
-        new RamFire().Start();
+        // Menjalankan bot BSKGARED
+        new BSKGARED().Start();
     }
 
-    RamFire() : base(BotInfo.FromFile("main.json")) { }
+    BSKGARED() : base(BotInfo.FromFile("main.json")) { }
 
     public override void Run()
     {

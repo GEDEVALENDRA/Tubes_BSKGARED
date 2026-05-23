@@ -3,7 +3,7 @@ using System.Drawing;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 
-public class EvasiveCircleBot : Bot
+public class BSKLASKARKORPRI : Bot
 {
     // Arah gerak bot, 1 untuk maju dan -1 untuk mundur
     int moveDir = 1;
@@ -13,11 +13,11 @@ public class EvasiveCircleBot : Bot
 
     static void Main(string[] args)
     {
-        // Menjalankan bot EvasiveCircleBot
-        new EvasiveCircleBot().Start();
+        // Menjalankan bot BSKLASKARKORPRI
+        new BSKLASKARKORPRI().Start();
     }
 
-    EvasiveCircleBot() : base(BotInfo.FromFile("alt.json")) { }
+    BSKLASKARKORPRI() : base(BotInfo.FromFile("alt.json")) { }
 
     public override void Run()
     {

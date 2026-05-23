@@ -102,6 +102,15 @@ dotnet run
 - Instagram : https://instagram.com/gedevln12_
 - GitHub : https://github.com/gedevalendra
 
+### Faisal H Sinambela
+
+- Instagram : https://instagram.com/gedevln12_
+- GitHub : https://github.com/gedevalendra
+
+### Stevan Immanuel Simbolon
+
+- Instagram : https://instagram.com/gedevln12_
+- GitHub : https://github.com/gedevalendra
 ---
 
 <div align="center">

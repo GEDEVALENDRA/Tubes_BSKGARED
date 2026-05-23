@@ -4,7 +4,7 @@ using System.Drawing;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 
-public class Justinian : Bot
+public class BSKLASKARPOINTCAFFE : Bot
 {
     private class EnemyInfo
     {
@@ -34,10 +34,10 @@ public class Justinian : Bot
 
     static void Main(string[] args)
     {
-        new Justinian().Start();
+        new BSKLASKARPOINTCAFFE().Start();
     }
 
-    Justinian() : base(BotInfo.FromFile("alt.json")) { }
+    BSKLASKARPOINTCAFFE() : base(BotInfo.FromFile("alt.json")) { }
 
     public override void Run()
     {
