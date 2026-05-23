@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("alt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0ed4c97ea37f03136bd5eec013a03bd5b4c472c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a125b654f8fbfe86ea68b41f965b179fed9ff93")]
 [assembly: System.Reflection.AssemblyProductAttribute("alt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("alt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

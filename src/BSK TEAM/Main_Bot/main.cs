@@ -18,7 +18,7 @@ public class RamFire : Bot
         new RamFire().Start();
     }
 
-    RamFire() : base(BotInfo.FromFile("alt.json")) { }
+    RamFire() : base(BotInfo.FromFile("main.json")) { }
 
     public override void Run()
     {

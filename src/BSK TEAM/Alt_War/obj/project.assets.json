@@ -822,9 +822,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "p:\\TubesStigma\\src\\BSK TEAM\\Alt_War\\main.csproj",
-      "projectName": "main",
-      "projectPath": "p:\\TubesStigma\\src\\BSK TEAM\\Alt_War\\main.csproj",
+      "projectUniqueName": "p:\\TubesStigma\\src\\BSK TEAM\\Alt_War\\alt.csproj",
+      "projectName": "alt",
+      "projectPath": "p:\\TubesStigma\\src\\BSK TEAM\\Alt_War\\alt.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
       "outputPath": "p:\\TubesStigma\\src\\BSK TEAM\\Alt_War\\obj\\",
       "projectStyle": "PackageReference",
