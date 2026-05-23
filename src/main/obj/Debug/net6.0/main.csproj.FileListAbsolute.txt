@@ -1,0 +1,5 @@
+P:\TubesStigma\src\main\obj\Debug\net6.0\main.csproj.AssemblyReference.cache
+P:\TubesStigma\src\main\obj\Debug\net6.0\main.GeneratedMSBuildEditorConfig.editorconfig
+P:\TubesStigma\src\main\obj\Debug\net6.0\main.AssemblyInfoInputs.cache
+P:\TubesStigma\src\main\obj\Debug\net6.0\main.AssemblyInfo.cs
+P:\TubesStigma\src\main\obj\Debug\net6.0\main.csproj.CoreCompileInputs.cache
